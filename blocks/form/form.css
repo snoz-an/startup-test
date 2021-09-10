@@ -1,0 +1,18 @@
+@import url(./__header/form__header.css);
+@import url(./__container/form__container.css);
+@import url(./__container-item/form__container-item.css);
+@import url(./__container-input/form__container-input.css);
+@import url(./__button/form__button.css);
+
+.form {
+    width: 65%;
+    margin: 0 auto;
+    padding: 34px 72px 65px 73px;
+    background-image: url(../../images/form-backg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    transform: translateY(-155px);
+    box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
+}

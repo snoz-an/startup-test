@@ -1,0 +1,7 @@
+.form__container-input {
+    width: 100%;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 14px;
+}

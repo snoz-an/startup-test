@@ -1,0 +1,9 @@
+@import url(./__phone-img/header__phone-img.css);
+@import url(./__phone-number/header__phone-number.css);
+
+.header__phone {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+}

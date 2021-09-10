@@ -1,0 +1,16 @@
+ @import url(./__logo-name/header__logo-name.css);
+ @import url(./__logo-container/header__logo-container.css);
+ @import url(./__logo-paragraph/header__logo-paragraph.css);
+
+ .header__logo {
+  width: 48.52px;
+  height: 45.05px;
+  margin-top: 22px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

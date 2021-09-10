@@ -1,0 +1,14 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/railway.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
