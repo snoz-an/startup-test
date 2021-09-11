@@ -1,0 +1,9 @@
+.portfolio__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 20px);
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 39px;
+}
+

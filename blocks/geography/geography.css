@@ -1,0 +1,10 @@
+@import url(./__description/geography__description.css);
+@import url(./__img/geography__img.css);
+@import url(./__paragraph-coverage/geography__paragraph-coverage.css);
+@import url(./__paragraph-subjects/geography__paragraph-subjects.css);
+
+.geography {
+    display: flex;
+    width: 75%;
+    margin: 129px auto 0;
+}

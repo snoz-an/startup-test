@@ -1,0 +1,12 @@
+@import url(./_vector/portfolio__item_vector.css);
+
+.portfolio__item {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1475px) {
+    .portfolio__item {
+        font-size: 13px;
+        }
+    }

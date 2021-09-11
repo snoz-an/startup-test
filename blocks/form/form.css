@@ -7,12 +7,37 @@
 .form {
     width: 65%;
     margin: 0 auto;
-    padding: 34px 72px 65px 73px;
+    padding: 34px 72px 50px 73px;
     background-image: url(../../images/form-backg.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
-    transform: translateY(-155px);
+    /* transform: translateY(-776px); */
+    transform: translateY(-331%);
     box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
 }
+
+@media screen and (max-width: 1421px) {
+    .form {
+        transform: translateY(-350%);
+        }
+    }
+
+    @media screen and (max-width: 1370px) {
+        .form {
+            transform: translateY(-380%);
+            }
+        }
+
+        @media screen and (max-width: 1346px) {
+            .form {
+                transform: translateY(-400%);
+                }
+            }
+
+            @media screen and (max-width: 1296px) {
+                .form {
+                    transform: translateY(-440%);
+                    }
+                }

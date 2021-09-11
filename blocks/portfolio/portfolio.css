@@ -1,0 +1,11 @@
+@import url(./__slider/portfolio__slider.css);
+@import url(./__img/portfolio__img.css);
+@import url(./__form/portfolio__form.css);
+@import url(./__list/portfolio__list.css);
+@import url(./__item/portfolio__item.css);
+
+.portfolio {
+    width: 100%;
+    background: #F4F8FF;
+    padding: 71px 0 0;
+}
