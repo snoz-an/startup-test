@@ -9,6 +9,11 @@
 @import url(./__form-paragraph/portfolio__form-paragraph.css);
 @import url(./__list-about/portfolio__list-about.css);
 @import url(./__form-header/portfolio__form-header.css);
+@import url(./__arrow/portfolio__arrow.css);
+@import url(./__arrows/portfolio__arrows.css);
+@import url(./__arrows-right/portfolio__arrows-right.css);
+@import url(./__arrows-left/portfolio__arrows-left.css);
+@import url(./__img-small/portfolio__img-small.css);
 
 .portfolio {
     width: 100%;

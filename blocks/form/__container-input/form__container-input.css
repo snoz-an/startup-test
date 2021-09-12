@@ -1,5 +1,8 @@
+@import url(./_full/form__container-input_full.css);
+@import url(./_comment/form__container-input_comment.css);
+
+
 .form__container-input {
-    width: 100%;
     border: 1px solid #E7ECF3;
     box-sizing: border-box;
     border-radius: 5px;

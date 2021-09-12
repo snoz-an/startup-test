@@ -1,0 +1,11 @@
+.portfolio__arrows-right {
+    display: none;
+}
+
+
+@media screen and (max-width: 980px) {
+    .portfolio__arrows-right {
+        display: block;
+        margin-left: 500%;
+        }
+    }

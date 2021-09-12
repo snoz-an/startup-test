@@ -2,3 +2,10 @@
     width: 75%;
     margin: 79px auto 0;
 }
+
+@media screen and (max-width: 500px) {
+    .advantages {
+        margin: 13px auto 0;
+        width: 90%;
+    }
+    }

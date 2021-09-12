@@ -7,3 +7,11 @@
     width: 52%;
     margin: 109px auto 6.92px;
 }
+
+@media screen and (max-width: 960px) {
+    .lead__title {
+        font-size: 38px;
+        line-height: 48px;
+        width: 63%;
+        }
+    }

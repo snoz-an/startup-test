@@ -12,10 +12,9 @@
     padding: 0 200px 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1200px) {
 .header {
-    width: 90%;
-    padding-top: 16px;
+    padding: 0;
     }
 }
 

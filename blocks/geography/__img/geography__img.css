@@ -1,4 +1,9 @@
 .geography__img {
-    width: 724px;
-    height: 455px;
+    width: 47vw;
 }
+
+@media screen and (max-width: 980px) {
+    .geography__img {
+        width: 90vw;
+        }
+    }

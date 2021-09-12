@@ -3,6 +3,7 @@
 @import url(./__item/cards__item.css);
 @import url(./__title/cards__title.css);
 @import url(./__item-container/cards__item-container.css);
+@import url(./__container/cards__container.css);
 
 .cards {
   display: grid;
@@ -16,3 +17,19 @@
   padding: 0;
   margin-top: 36px;
 }
+
+@media screen and (max-width: 1400px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+      }
+  }
+
+  @media screen and (max-width: 836px) {
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+        }
+    }
+
+  

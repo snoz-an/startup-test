@@ -3,4 +3,14 @@
     color: #FFFFFF;
     padding: 40px 34px 83px 34px;
     height: 30vh;
+    margin-right: 46px;
 }
+
+
+@media screen and (max-width: 980px) {
+    .portfolio__form {
+        padding: 43px 60px 52px 60px;
+        margin: 0 auto;
+        height: auto;
+        }
+    }

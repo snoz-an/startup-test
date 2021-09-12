@@ -12,9 +12,9 @@
 
 
 
-@media screen and (max-width: 1434px) {
+@media screen and (max-width: 1370px) {
 .header__links {
-   
+   display: none;
    }
 }
 

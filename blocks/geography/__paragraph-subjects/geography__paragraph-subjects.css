@@ -4,3 +4,9 @@
     color: rgba(0, 26, 51, 0.7);
     margin: 0;
 }
+
+@media screen and (max-width: 980px) {
+    .geography__paragraph-subjects {
+        width: 77%
+        }
+    }

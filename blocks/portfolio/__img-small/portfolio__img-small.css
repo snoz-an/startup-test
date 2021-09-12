@@ -1,0 +1,10 @@
+.portfolio__img-small {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .portfolio__img-small {
+        display: block;
+        width: 100%;
+        }
+    }

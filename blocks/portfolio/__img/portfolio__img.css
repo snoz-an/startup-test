@@ -6,3 +6,10 @@
     max-width: 34.5%;
     height: 100%;
 }
+
+@media screen and (max-width: 980px) {
+    .portfolio__img {
+        display: none;
+        }
+    }
+    

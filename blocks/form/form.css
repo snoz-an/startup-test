@@ -6,6 +6,7 @@
 
 @import url(./__container-full/form__container-full.css);
 @import url(./__two-columns/form__two-columns.css);
+@import url(./__confidentiality/form__confidentiality.css);
 
 .form {
     width: 65%;
@@ -16,12 +17,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
-    /* transform: translateY(-776px); */
-    transform: translateY(-331%);
+
+    /* transform: translateY(-331%); */
     box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
 }
 
-@media screen and (max-width: 1421px) {
+/* @media screen and (max-width: 1421px) {
     .form {
         transform: translateY(-350%);
         }
@@ -44,3 +45,11 @@
                     transform: translateY(-440%);
                     }
                 }
+ */
+
+
+
+
+            
+
+

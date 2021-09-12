@@ -7,3 +7,16 @@
     color: #001A33;
     margin: 0 0 25px;
 }
+
+@media screen and (max-width: 960px) {
+    .form__header {
+        width: 52%;
+    }
+    }
+
+    @media screen and (max-width: 480px) {
+        .form__header {
+            width: 60%;
+            font-size: 20px;
+        }
+        }

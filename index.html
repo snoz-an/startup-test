@@ -28,6 +28,33 @@
         <div class="header__phone">
           <img src="./images/PhoneCall.svg" alt="телефон" class="header__phone-img"> 
           <a href="tel:+7(902)272-93-14" class="header__phone-number">8(902)272-93-14</a>
+
+          <div class="wrapper">
+
+            <nav>
+              <div class="burger-nav">
+                    <!-- <img class="burger-icon" src="http://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" height="35" width="35"> -->
+              </div>
+        
+              <div id="contain">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        
+              <ul id="nav" >
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Photos</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </nav>
+        
+          </div>
+
+
+
         </div>
 
      </header>
@@ -48,7 +75,7 @@
               <p class="geography__paragraph-subjects">Компания проводит строительные и ремонтные работы на территории более чем 20 субъектов Российской Федерации, постоянно расширяя географию присутствия на всю территорию страны. Работа компании ведется как в крупных городах областного значения, так и в небольших населенных пунктах. Заказчиками могут быть региональные или федеральные компании, крупные компании из разных сфер деятельности,заинтересованные в осуществлении транспортных проектов.</p>
           </div>
 
-          <img src="./images/geography-img.jpg" class="geography__img">
+          <div class="geography__img-container"><img src="./images/geography-img.jpg" class="geography__img"></div>
 
 
         </section>
@@ -95,6 +122,7 @@
             <div class="portfolio__slider">
               <img src="./images/arrow.svg" class="portfolio__arrow">
               <img src="./images/Rectangle 25.png" class="portfolio__img">
+              <img src="./images/portfolio-img-small.jpg" class="portfolio__img-small">
 
 
               <div class="portfolio__form">
@@ -112,8 +140,13 @@
                     <button type="submit" class="form__button form__button_portfolio">Оставить заявку</button>
               </div>
 
+              <div class="portfolio__arrows">
+                    <img src="./images/arrow.svg" class="portfolio__arrows-left">
+                    <img src="./images/right.svg" class="portfolio__arrows-right">
+              </div>
+
                 
-              <img src="./images/right.svg" class="portfolio__arrow">
+              <img src="./images/right.svg" class="portfolio__arrow portfolio__arrow_right">
 
             </div>
 
@@ -122,6 +155,8 @@
         <section class="advantages">
 
         <h2 class="text__header">Преимущества работы с нами</h2>
+
+        <div class="cards__container">
 
         <ul class="cards">
           <li class="cards__item">
@@ -168,6 +203,8 @@
           </li>
           
        </ul>
+
+       </div>
 
       </section>
 
@@ -261,7 +298,7 @@
 
   <section class="form-full">
 
-    <h3 class="form__header">Оставьте заявку на <span class="form__header_accent">бесплатную </span>консультацию</h3>
+    <h3 class="form__header">Остались вопросы?</h3>
 
     <div class="form__two-columns">
 
@@ -272,30 +309,56 @@
             <li class="form__container-item">
 
                 <p class="">Имя</p>
-                <input class="form__container-input" placeholder="Михаил">
+                <input class="form__container-input form__container-input_full" placeholder="Михаил">
 
             </li>
 
             <li class="form__container-item">
 
               <p>Телефон</p>
-              <input class="form__container-input" placeholder="8 (800) 535 35 35">
+              <input class="form__container-input form__container-input_full" placeholder="8 (800) 535 35 35">
 
             </li>
 
           <li class="form__container-item">
 
             <p>Почта</p>
-            <input class="form__container-input" placeholder="company@mail.com">
+            <input class="form__container-input form__container-input_full" placeholder="company@mail.com">
 
           </li>
 
+          <input type="checkbox" class="form__confidentiality">Даю свое согласие 
+          <span class="form__header_accent">с политикой конфиденциальности </span></input>
         </ul>
 
+        <div class="form__container-comment">
+
+        <p>Комментарий</p>
+        <textarea name="comment" cols="40" rows="3" class="form__container-input form__container-input_comment"></textarea>
+        <button type="submit" class="form__button">ОТПРАВИТЬ</button> 
+
+      </div>
+
         </div>
+
       
 
   </section>
+
+
+  <script>
+    var x = document.getElementById("contain");
+
+x.addEventListener("click", myFunction);
+
+function myFunction() {
+  var element = document.getElementById("nav");
+  element.classList.toggle("open");
+  
+  x.classList.toggle("change");
+}
+
+  </script>
 
   
  </body> 
