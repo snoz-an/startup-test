@@ -1,0 +1,15 @@
+.cards__item {
+  display: flex;
+  /* max-width: 240px; */
+  max-width: 329px;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.cards__item:nth-child(6) {
+  margin-right: 0;
+}

@@ -1,0 +1,18 @@
+@import url(./__description/cards__description.css);
+@import url(./__image/cards__image.css);
+@import url(./__item/cards__item.css);
+@import url(./__title/cards__title.css);
+@import url(./__item-container/cards__item-container.css);
+
+.cards {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px); */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 36px;
+}

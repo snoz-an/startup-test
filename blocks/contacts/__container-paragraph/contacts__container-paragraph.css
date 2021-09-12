@@ -1,0 +1,26 @@
+/* .contacts__container-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0;
+} */
+
+.contacts__container-paragraph {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    opacity: 0.7;
+    width: 156px;
+}
+
+
+.contacts__container-paragraph:first-of-type {
+    margin-top: 23px;
+    margin-bottom: 27px;;
+  }
+
+  .contacts__container-paragraph:last-of-type {
+    margin-top: 14px;
+    margin-bottom: 43px;
+  }

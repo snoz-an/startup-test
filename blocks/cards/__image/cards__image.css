@@ -1,0 +1,8 @@
+.cards__image {
+  height: 70px;
+  width: 70px;
+  margin-right: 41.79px;
+  background-image: url(../../../images/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -3,6 +3,12 @@
 @import url(./__form/portfolio__form.css);
 @import url(./__list/portfolio__list.css);
 @import url(./__item/portfolio__item.css);
+@import url(./__form-about/portfolio__form-about.css);
+@import url(./__img_about/portfolio__img_about.css);
+@import url(./__about/portfolio__about.css);
+@import url(./__form-paragraph/portfolio__form-paragraph.css);
+@import url(./__list-about/portfolio__list-about.css);
+@import url(./__form-header/portfolio__form-header.css);
 
 .portfolio {
     width: 100%;

@@ -1,7 +1,8 @@
 .footer__author {
     margin: 0;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 130%;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 700px) {

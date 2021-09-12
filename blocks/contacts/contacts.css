@@ -1,0 +1,14 @@
+@import url(./__container/contacts__container.css);
+@import url(./__container-header/contacts__container-header.css);
+@import url(./__container-paragraph/contacts__container-paragraph.css);
+@import url(./__container-list/contacts__container-list.css);
+@import url(./__company/contacts__company.css);
+@import url(./__icons/contacts__icons.css);
+@import url(./__icon/contacts__icon.css);
+
+.contacts {
+    padding: 61px 0px 64px 200px;
+    margin: 144px 0 auto;
+    background: #4169C1;
+    color: white;
+}

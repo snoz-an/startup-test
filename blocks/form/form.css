@@ -4,6 +4,9 @@
 @import url(./__container-input/form__container-input.css);
 @import url(./__button/form__button.css);
 
+@import url(./__container-full/form__container-full.css);
+@import url(./__two-columns/form__two-columns.css);
+
 .form {
     width: 65%;
     margin: 0 auto;

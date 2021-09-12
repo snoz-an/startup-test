@@ -1,0 +1,12 @@
+.portfolio__form-about {
+    background-image: url(../../../images/abot-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+    width: 45%;
+    z-index: 1;
+    margin-left: 27px;
+    padding: 73px 71px 48px 73px;
+}

@@ -1,0 +1,16 @@
+.contacts__container-header {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
+
+
+.contacts__container-header:first-of-type {
+    margin-top: 23px;
+    margin-bottom: 72px;
+  }
+
+  .contacts__container-header:last-of-type {
+    margin-top: 14px;
+    margin-bottom: 43px;
+  }
