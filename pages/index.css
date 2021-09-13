@@ -24,3 +24,135 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/header/__phone/header__phone.css);
+
+.wrapper {
+    display: none;
+}
+
+.burger-icon {
+    position: relative;
+    right: 1%;
+    cursor: pointer;
+    top: 3px;
+  }
+  
+  .burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  header .wrapper {
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  #nav {
+    overflow: hidden;
+    background: #4169C1;
+    height: 0;
+    max-height: 0px; 
+    list-style-type: none;
+    padding-left: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+    border-radius: 19px;
+  }
+
+  #nav li:hover {
+    opacity: 0.3;
+  }
+  
+  #nav.open {
+    height: auto;
+    max-height: 500px; 
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  
+  }
+  
+  #nav li {
+    float: none;
+    text-align: left;
+    text-decoration: none;
+    width: 100%; 
+    margin: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  }
+  
+  #nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    display: block;
+    margin: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+  }
+  
+  #contain {
+      display: inline-block;
+      cursor: pointer;
+      position: fixed;
+      right: 10px;
+      top: 0px;
+      margin-top: 22px;
+      margin-right: 200px;
+
+  }
+  
+  .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.2s;
+  }
+  
+  .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+      transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+      transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  
+  .hover .bar1 {
+    background-color: red;
+  }
+  
+  .hover .bar2 {
+    background-color: red;
+  }
+  
+  .hover .bar3 {
+    background-color: red;
+  }
+
+  @media screen and (max-width: 1370px) {
+    .wrapper {
+        display: block;
+    }
+    }
+
+    @media screen and (max-width: 1200px) {
+        #contain {
+            margin-right: 100px;
+        }
+        }
+
+    @media screen and (max-width: 747px) {
+        #contain {
+            margin-right: 15px;
+        }
+        }
