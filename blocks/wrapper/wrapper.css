@@ -1,0 +1,21 @@
+.wrapper {
+    display: none;
+}
+
+@media screen and (max-width: 1370px) {
+    .wrapper {
+        display: block;
+    }
+    }
+
+    @media screen and (max-width: 1200px) {
+        #contain {
+            margin-right: 100px;
+        }
+        }
+
+    @media screen and (max-width: 747px) {
+        #contain {
+            margin-right: 15px;
+        }
+        }
