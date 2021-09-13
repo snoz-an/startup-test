@@ -14,9 +14,9 @@
     }
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 490px) {
         .form__header {
-            width: 60%;
+            width: 55%;
             font-size: 20px;
         }
         }

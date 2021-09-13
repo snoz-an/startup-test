@@ -1,3 +1,9 @@
 .text__header_about {
     margin-left: 200px;
 }
+
+@media screen and (max-width: 1389px) {
+    .text__header_about {
+        margin-left: 8%;
+        }
+    }

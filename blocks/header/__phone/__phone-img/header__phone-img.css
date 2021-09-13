@@ -4,7 +4,7 @@ width: 22.96px;
 height: 22.96px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 747px) {
     .header__phone-img {
         display: none;
     }

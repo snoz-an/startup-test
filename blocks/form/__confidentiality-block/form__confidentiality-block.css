@@ -1,0 +1,9 @@
+.form__confidentiality-block {
+    display: none;
+}
+
+@media screen and (max-width: 890px) {
+    .form__confidentiality-block {
+        display: block;
+    }
+    }

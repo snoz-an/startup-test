@@ -7,6 +7,12 @@
 @import url(./__container-full/form__container-full.css);
 @import url(./__two-columns/form__two-columns.css);
 @import url(./__confidentiality/form__confidentiality.css);
+@import url(./__confidentiality-none/form__confidentiality-none.css);
+@import url(./__confidentiality-block/form__confidentiality-block.css);
+@import url(./__container-item-full/form__container-item-full.css);
+@import url(./__button-full/form__button-full.css);
+@import url(./__button-portfolio/form__button-portfolio.css);
+@import url(./__button-first/form__button-first.css);
 
 .form {
     width: 65%;
@@ -17,35 +23,71 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
+    
+    position: absolute;
+    top: 44%;
+    left: 11%;
 
     /* transform: translateY(-331%); */
     box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
+
 }
 
-/* @media screen and (max-width: 1421px) {
+@media screen and (max-width: 1520px) {
     .form {
-        transform: translateY(-350%);
+        top: 49%;
         }
     }
 
-    @media screen and (max-width: 1370px) {
+    @media screen and (max-width: 1110px) {
         .form {
-            transform: translateY(-380%);
+            top: 58%;
             }
         }
 
-        @media screen and (max-width: 1346px) {
+        @media screen and (max-width: 955px) {
             .form {
-                transform: translateY(-400%);
+                top: 46%;
+                left: 5%;
                 }
             }
 
-            @media screen and (max-width: 1296px) {
+            @media screen and (max-width: 815px) {
                 .form {
-                    transform: translateY(-440%);
+                    top: 57%;
                     }
                 }
- */
+
+                @media screen and (max-width: 586px) {
+                    .form {
+                        top: 62%;
+                        left: 3%
+                        }
+                    }
+
+                    @media screen and (max-width: 490px) {
+                        .form {
+                            top: 47%;
+                            left: 4%;
+                            }
+                        }
+
+
+@media screen and (max-width: 490px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
+@media screen and (max-width: 508px) {
+    .form {
+        padding: 33px 30px 43px 30px;
+        width: 73%;
+        top: 49%;
+        }
+    }
+
 
 
 

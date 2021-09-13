@@ -5,3 +5,11 @@
     margin: 0;
 }
 
+@media screen and (max-width: 490px) {
+    .text__header {
+       
+        font-size: 26px;
+        
+    }
+    
+    }

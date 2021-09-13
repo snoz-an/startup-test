@@ -5,8 +5,15 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 700px) {
-.footer__author {
-    line-height: 100%;
+@media screen and (max-width: 1389px) {
+    .footer__author {
+        width: 166px;
+        }
     }
-}
+
+    @media screen and (max-width: 700px) {
+        .footer__author {
+            line-height: 100%;
+            }
+        }
+        

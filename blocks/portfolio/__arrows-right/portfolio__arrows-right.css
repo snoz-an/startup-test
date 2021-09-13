@@ -3,9 +3,9 @@
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1390px) {
     .portfolio__arrows-right {
         display: block;
-        margin-left: 500%;
+        /* margin-left: 500%; */
         }
     }

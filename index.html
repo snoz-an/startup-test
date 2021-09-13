@@ -9,6 +9,7 @@
 <body class="page">
   
     <header class="header">
+
       <div class="header__container">
         <img src="./images/logo.svg" alt="логотип" class="header__logo"> 
         <div class="header__no">
@@ -18,11 +19,11 @@
       </div>
       </div>
         <ul class="header__links">
-           <li><a href="#" class="header__link">ГЛАВНАЯ</a></li>
-           <li><a href="#" class="header__link">ПОРТФОЛИО</a></li>
-           <li><a href="#" class="header__link">О НАС</a></li>
-           <li><a href="#" class="header__link">ГЕОГРАФИЯ</a></li>
-           <li><a href="#" class="header__link">КОНТАКТЫ</a></li>
+           <li><a href="#lead" class="header__link">ГЛАВНАЯ</a></li>
+           <li><a href="#portfolio" class="header__link">ПОРТФОЛИО</a></li>
+           <li><a href="#about" class="header__link">О НАС</a></li>
+           <li><a href="#geography" class="header__link">ГЕОГРАФИЯ</a></li>
+           <li><a href="#contacts" class="header__link">КОНТАКТЫ</a></li>
         </ul>  
         </div>
         <div class="header__phone">
@@ -33,7 +34,7 @@
 
             <nav>
               <div class="burger-nav">
-                    <!-- <img class="burger-icon" src="http://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" height="35" width="35"> -->
+                    
               </div>
         
               <div id="contain">
@@ -43,11 +44,11 @@
               </div>
         
               <ul id="nav" >
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Photos</a></li>
-                <li><a href="">Videos</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#lead">Главная</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#geography">География</a></li>
+                <li><a href="#contacts">Контакты</a></li>
               </ul>
             </nav>
         
@@ -60,7 +61,10 @@
      </header>
 
     <main class="content">
-        <section class="lead">
+
+
+
+        <section id="lead" class="lead">
           <h1 class="lead__title">Услуги по строительству 
             и ремонту железнодорожных путей</h1>
           <p class="lead__subtitle">Компания проводит строительные и ремонтные работы на территории более чем 20 субъектов Российской Федерации</p>
@@ -68,7 +72,7 @@
 
 
 
-        <section class="geography">
+        <section id="geography" class="geography">
           <div class="geography__description">
               <h2 class="text__header">География работ</h2>
               <p class="geography__paragraph-coverage">ООО «Путьремстрой» реализует проекты на всей территории Российской Федерации.</p>
@@ -109,14 +113,14 @@
 
         </li>
 
-        <li class="form__container-item"> <button type="submit" class="form__button">ОТПРАВИТЬ</button> </li>
+        <li class=""> <button type="submit" class="form__button-first">ОТПРАВИТЬ</button> </li>
 
       </ul>
 
         </section>
 
 
-        <section class="portfolio">
+         <section id="portfolio" class="portfolio">
             <h2 class="text__header text__header_portfolio">Наше портфолио</h2>
 
             <div class="portfolio__slider">
@@ -137,7 +141,7 @@
                       <li class="portfolio__item"><img class="portfolio__item_vector" src="./images/Vector.svg">Ехал поезд запоздалый</li>
                     </ul>
 
-                    <button type="submit" class="form__button form__button_portfolio">Оставить заявку</button>
+                    <button type="submit" class="form__button-portfolio">Оставить заявку</button>
               </div>
 
               <div class="portfolio__arrows">
@@ -146,7 +150,7 @@
               </div>
 
                 
-              <img src="./images/right.svg" class="portfolio__arrow portfolio__arrow_right">
+              <img src="./images/right.svg" class="portfolio__arrow">
 
             </div>
 
@@ -210,11 +214,11 @@
 
 
 
-      <section class="portfolio__about">
+      <section id="about" class="portfolio__about">
 
         <h2 class="text__header text__header_about">О нашей компании</h2>
 
-        <div class="portfolio__slider">
+        <div class="portfolio__slider_about">
         
 
           <div class="portfolio__form-about">
@@ -235,23 +239,15 @@
 
     </section>
 
-    <section class="contacts">
+
+
+
+
+
+
+
+     <section id="contacts" class="contacts">
       <h2 class="contacts__header">Контакты</h2>
-      <!-- <div class="contacts__container">
-        <h3 class="contacts__container-header">Телефон:</h3>
-        <p class="contacts__container-paragraph">8(902)272-93-14</p>
-      </div>
-
-      <div class="contacts__container">
-        <h3 class="contacts__container-header">E-mail:</h3>
-        <p class="contacts__container-paragraph">nasvaniye@mail.ru</p>
-      </div>
-
-      <div class="contacts__container">
-        <h3 class="contacts__container-header">Адрес:</h3>
-        <p class="contacts__container-paragraph">г. Екатеринбург, ул.  Колмогорова, дом 67</p>
-      </div> -->
-
 
     <div class="contacts__container">
       <ul class="contacts__container-list">
@@ -277,73 +273,91 @@
       </ul>
 
 
-    </section>
+    </section> 
         
 
         
     </main>
 
 
-    <footer class="footer">
+
+
+    <section class="form-full">
+
+      <h3 class="form__header">Остались вопросы?</h3>
+  
+      <div class="form__two-columns">
+  
+             
+        
+              <ul class="form__container-full">
+  
+              <li class="form__container-item form__container-item-full">
+  
+                  <p class="">Имя</p>
+                  <input class="form__container-input form__container-input_full" placeholder="Михаил">
+  
+              </li>
+  
+              <li class="form__container-item form__container-item-full">
+  
+                <p>Телефон</p>
+                <input class="form__container-input form__container-input_full" placeholder="8 (800) 535 35 35">
+  
+              </li>
+  
+            <li class="form__container-item form__container-item-full">
+  
+              <p>Почта</p>
+              <input class="form__container-input form__container-input_full" placeholder="company@mail.com">
+  
+            </li>
+  
+    <div class="form__confidentiality-none">
+            <input type="checkbox" class="form__confidentiality">Даю свое согласие 
+            <span class="form__header_accent">с политикой конфиденциальности </span></input>
+          
+    </div>
+  
+          </ul>
+  
+  
+  
+  
+          <div class="form__container-comment">
+  
+          <p>Комментарий</p>
+          <textarea name="comment" cols="40" rows="3" class="form__container-input form__container-input_comment"></textarea>
+          <button type="submit" class="form__button-full">ОТПРАВИТЬ</button> 
+  
+        </div>
+  
+        <div class="form__confidentiality-block">
+          <input type="checkbox" class="form__confidentiality">Даю свое согласие 
+          <span class="form__header_accent">с политикой конфиденциальности </span></input>
+        
+        </div>
+  
+          </div>
+  
+        
+  
+    </section>
+  
+
+
+     <footer class="footer">
 
   <p class="footer__rights">Все права защищены.</p>
 
    
   <p class="footer__author"><img src="./images/footer.svg" class="footer__author-img">Разработка сайта - студия “ТвойСтартап”</p>
-  </footer>
+  </footer> 
 
 
 
 
 
-  <section class="form-full">
-
-    <h3 class="form__header">Остались вопросы?</h3>
-
-    <div class="form__two-columns">
-
-           
-
-            <ul class="form__container-full">
-
-            <li class="form__container-item">
-
-                <p class="">Имя</p>
-                <input class="form__container-input form__container-input_full" placeholder="Михаил">
-
-            </li>
-
-            <li class="form__container-item">
-
-              <p>Телефон</p>
-              <input class="form__container-input form__container-input_full" placeholder="8 (800) 535 35 35">
-
-            </li>
-
-          <li class="form__container-item">
-
-            <p>Почта</p>
-            <input class="form__container-input form__container-input_full" placeholder="company@mail.com">
-
-          </li>
-
-          <input type="checkbox" class="form__confidentiality">Даю свое согласие 
-          <span class="form__header_accent">с политикой конфиденциальности </span></input>
-        </ul>
-
-        <div class="form__container-comment">
-
-        <p>Комментарий</p>
-        <textarea name="comment" cols="40" rows="3" class="form__container-input form__container-input_comment"></textarea>
-        <button type="submit" class="form__button">ОТПРАВИТЬ</button> 
-
-      </div>
-
-        </div>
-
-      
-
-  </section>
 
 
   <script>

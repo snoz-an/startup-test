@@ -4,3 +4,9 @@
     padding: 71px 0 144px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1389px) {
+    .portfolio__about {
+        padding-bottom: 0;
+        }
+    }

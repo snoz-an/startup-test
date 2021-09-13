@@ -1,3 +1,9 @@
 .form__two-columns {
     display: flex;
 }
+
+@media screen and (max-width: 1300px) {
+    .form__two-columns {
+        flex-direction: column;
+        }
+    }

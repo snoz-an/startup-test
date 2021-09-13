@@ -5,3 +5,11 @@
     color: rgba(255, 255, 255, 0.53);
     margin: 0;
 }
+
+@media screen and (max-width: 1389px) {
+    .footer__rights {
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 46px;
+        }
+    }

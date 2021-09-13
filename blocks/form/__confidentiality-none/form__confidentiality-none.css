@@ -1,0 +1,5 @@
+@media screen and (max-width: 890px) {
+    .form__confidentiality-none {
+        display: none;
+    }
+    }

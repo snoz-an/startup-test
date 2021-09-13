@@ -1,0 +1,13 @@
+.portfolio__slider_about {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media screen and (max-width: 1389px) {
+    .portfolio__slider_about {
+        flex-direction: column;
+        width: 100%;
+        }
+    }

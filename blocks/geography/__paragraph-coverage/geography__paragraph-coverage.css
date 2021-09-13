@@ -3,3 +3,9 @@
     line-height: 150.52%;
     margin: 23px 0 19px;
 }
+
+@media screen and (max-width: 490px) {
+    .geography__paragraph-coverage {
+        font-size: 18px;
+        }
+    }

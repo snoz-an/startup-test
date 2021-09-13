@@ -10,3 +10,20 @@
     margin-left: 27px;
     padding: 73px 71px 48px 73px;
 }
+
+@media screen and (max-width: 1389px) {
+    .portfolio__form-about {
+        margin-left: 0;
+        width: 56%;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .portfolio__form-about {
+            padding: 42px 20px 132px 20px;
+            }
+        }
+
+
+
+    

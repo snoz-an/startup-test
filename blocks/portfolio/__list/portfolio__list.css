@@ -7,3 +7,15 @@
     margin-bottom: 39px;
 }
 
+@media screen and (max-width: 747px) {
+    .portfolio__list {
+        grid-row-gap: 31px;
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        .portfolio__list {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 20px);
+            }
+        }

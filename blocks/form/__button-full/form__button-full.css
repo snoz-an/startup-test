@@ -1,6 +1,5 @@
-@import url(./_full/form__button_full.css);
-
-.form__button {
+.form__button-full {
+    width: 100%;
     background: #FD6612;
     border-radius: 37.5px;
     font-weight: bold;
@@ -10,8 +9,7 @@
     letter-spacing: 0.04em;
     border: none;
     padding: 14px;
-    width: 171%;
     color: #FFFFFF;
     cursor: pointer;
-    margin-top: 16px;
+    margin-bottom: 12px;
 }

@@ -5,9 +5,18 @@
     margin: 0 auto 206px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1320px) {
     .lead__subtitle {
         width: 56%;
         margin: 0 auto 357px;
         }
     }
+
+    @media screen and (max-width: 490px) {
+        .lead__subtitle {
+            font-size: 16px;
+            width: 85%;
+            margin: 0 auto 370px;
+            }
+        }
+

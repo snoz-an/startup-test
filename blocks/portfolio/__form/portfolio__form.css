@@ -14,3 +14,11 @@
         height: auto;
         }
     }
+
+    @media screen and (max-width: 490px) {
+        .portfolio__form {
+            padding: 43px 29px 52px 29px;
+            margin: 0 auto;
+            height: auto;
+            }
+        }

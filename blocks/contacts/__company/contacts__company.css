@@ -4,3 +4,10 @@
     margin: 0 0 32px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1389px) {
+    .contacts__company {
+        margin: 0 0 73px;
+
+        }
+    }

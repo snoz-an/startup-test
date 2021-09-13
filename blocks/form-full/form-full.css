@@ -6,9 +6,79 @@
         border-radius: 5px;
         box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
         color: black;
-    
-        /* position: absolute;
-        top: 358vh;
-        right: 12vw;
-        z-index: 1; */
+        position: absolute;
+        left: 617px;
+        top: 3365px;
 }
+
+
+@media screen and (max-width: 1401px) {
+    .form-full {
+        top: 3609px;
+        left: 531px;
+        }
+    }
+
+    @media screen and (max-width: 1390px) {
+        .form-full {
+            top: 3609px;
+            }
+        }
+
+        @media screen and (max-width: 1389px) {
+            .form-full {
+                top: 4693px;
+                }
+            }
+
+            @media screen and (max-width: 1305px) {
+                .form-full {
+                    top: 5091px;
+                    left: 346px;
+                    width: 26%;
+                    }
+                }
+
+                @media screen and (max-width: 840x) {
+                    .form-full {
+                        top: 5515px;
+                        left: 346px;
+                        width: 26%;
+                        }
+                    }
+
+                    @media screen and (max-width: 837px) {
+                        .form-full {
+                            top: 5515px;
+                            left: 346px;
+                            width: 26%;
+                            }
+                        }
+
+                        @media screen and (max-width: 751px) {
+                            .form-full {
+                                top: 5743px;
+                                left: 346px;
+                                width: 26%;
+                                }
+                            }
+
+                            @media screen and (max-width: 700px) {
+                                .form-full {
+                                    position: static;
+                                    width: 80%;
+                                    padding: 30px 40px 30px 40px;
+                                    }
+                                }
+
+                       
+
+
+
+
+@media screen and (max-width: 490px) {
+    .form-full {
+        /* padding: 30px 40px 31px 40px; */
+        padding: 23px;
+        }
+    }

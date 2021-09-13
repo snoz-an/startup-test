@@ -10,6 +10,18 @@
     margin: 129px auto 0;
 }
 
+@media screen and (max-width: 1305px) {
+    .geography {
+       margin-top: 300px;
+        }
+    }
+
+    @media screen and (max-width: 962px) {
+        .geography {
+           margin-top: 250px;
+            }
+        }
+
 @media screen and (max-width: 980px) {
     .geography {
         flex-direction: column;

@@ -1,0 +1,19 @@
+.form__container-item-full {
+    margin: 0;
+    width: 31.8%;
+}
+
+.form__container-item-full:last-of-type {
+    margin: 0 0 0;
+}
+
+@media screen and (max-width: 960px) {
+    .form__container-item-full:last-of-type {
+        
+        margin: 0;
+    }
+    .form__container-item-full {
+        width: 100%;
+    }
+
+    }

@@ -10,3 +10,10 @@
         width: 77%
         }
     }
+
+    @media screen and (max-width: 490px) {
+        .geography__paragraph-subjects {
+            font-size: 14px;
+            width: 100%;
+            }
+        }

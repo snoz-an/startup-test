@@ -1,5 +1,9 @@
 @import url(./_right/portfolio__arrow_right.css);
 
+.portfolio__arrow {
+    display: block;        
+}
+
 @media screen and (max-width: 1390px) {
     .portfolio__arrow {
         display: none;        }

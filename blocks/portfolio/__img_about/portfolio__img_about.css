@@ -3,3 +3,10 @@
     transform: translate(-23px);
     height: 45.5vh;
 }
+
+    @media screen and (max-width: 1389px) {
+        .portfolio__img_about {
+            width: 100%;
+            transform: translateY(-36%);
+            }
+        }

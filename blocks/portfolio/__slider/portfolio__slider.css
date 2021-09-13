@@ -1,3 +1,5 @@
+@import url(./_about/portfolio__slider_about.css);
+
 .portfolio__slider {
     display: flex;
     width: 75%;
@@ -11,7 +13,7 @@
         }
     }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (max-width: 1390px) {
         .portfolio__slider {
             width: 90%;
             }

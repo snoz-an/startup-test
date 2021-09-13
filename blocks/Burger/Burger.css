@@ -26,13 +26,18 @@
   
   #nav {
     overflow: hidden;
-    background: #505050;
+    background: #4169C1;
     height: 0;
     max-height: 0px; 
     list-style-type: none;
     padding-left: 0;
     -webkit-transition: linear 1s;
     transition: linear 1s;
+    border-radius: 19px;
+  }
+
+  #nav li:hover {
+    opacity: 0.3;
   }
   
   #nav.open {
@@ -67,10 +72,12 @@
   #contain {
       display: inline-block;
       cursor: pointer;
-      position: absolute;
+      position: fixed;
       right: 10px;
       top: 0px;
       margin-top: 22px;
+      margin-right: 200px;
+
   }
   
   .bar1, .bar2, .bar3 {
@@ -110,3 +117,15 @@
         display: block;
     }
     }
+
+    @media screen and (max-width: 1200px) {
+        #contain {
+            margin-right: 100px;
+        }
+        }
+
+    @media screen and (max-width: 747px) {
+        #contain {
+            margin-right: 15px;
+        }
+        }
